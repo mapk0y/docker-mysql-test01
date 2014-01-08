@@ -1,5 +1,5 @@
 FROM ubuntu:12.04
-MAINTENER Kazuya Yokogawa "mapk0y@gmail.com"
+MAINTAINER Kazuya Yokogawa "mapk0y@gmail.com"
 
 RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y install mysql-server wget
