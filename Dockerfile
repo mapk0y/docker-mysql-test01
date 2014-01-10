@@ -1,6 +1,7 @@
 FROM ubuntu:12.04
 MAINTAINER Kazuya Yokogawa "mapk0y@gmail.com"
 
+RUN echo "deb http://jp.archive.ubuntu.com/ubuntu/ precise main" > /etc/apt/sources.list
 RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y install mysql-server wget
 RUN apt-get install -y python
