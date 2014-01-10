@@ -1,4 +1,4 @@
-GRANT ALL PRIVILEGES ON *.* TO 'lua'@'localhost' IDENTIFIED BY 'lua';
+GRANT ALL PRIVILEGES ON *.* TO admin@'%' with grant option;
 
 # mysql performanceblog.com
 CREATE DATABASE mtest;
